@@ -15,34 +15,16 @@
 
     <h1>Reino animal</h1>
 
-    <div class="contenedor">
-
-        <div>
-            <div id="leon">
-                sdsd
-            </div>
-
-            <div class="elefante">
-                <img src="elefante1.jpg">
-            </div>
-        </div>
-
-        <div>
-            <div class="gorila">
-                <img src="gorila1.jpg">
-            </div>
-
-            <div class="zebra">
-                <img src="zebra1.jpg">
-            </div>
-        </div>
-    </div>
+        <button class="boton leon"></button>
 
 <script>
-    
+var alternar = document.getElementsByClassName('alternar')[0];
 
+alternar.addEventListener('click', function(e) {
+            e.target.classList.toggle('activo');
+        });
+   	
 </script>
-
 </body>
 
 </html>

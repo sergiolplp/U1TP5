@@ -15,8 +15,28 @@ h1{
 
 }
 
+button{
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
 
-.contenedor {
+.alternar {
+    background: lightblue;
+}
+
+.alternar.activo {
+    background: blue;
+    color: white;
+}
+   
+
+/* .contenedor {
     display: flex;
     flex-direction:row;
     align-self: center;
@@ -35,7 +55,7 @@ img{
     margin: 10px;
     height: 250px;
     width: 350px;
-}
+} */
 
 /* .leon{
    background-image: url(leon1.jpg)
