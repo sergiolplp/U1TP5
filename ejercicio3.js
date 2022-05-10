@@ -12,3 +12,6 @@ function cambiafoto()
         fotopordefecto = 'leon1';
     }
 }
+
+const audio = new Audio();
+audio.src = 'leon_rugiendo.mp3';
