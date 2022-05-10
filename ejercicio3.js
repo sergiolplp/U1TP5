@@ -15,8 +15,8 @@ function cambiafoto1()
     }
 }
 
-const audio = new Audio();
-audio.src = 'rugido.mp3';
+const audio1 = new Audio();
+audio1.src = 'rugido.mp3';
 
 // ELEFANTE
 

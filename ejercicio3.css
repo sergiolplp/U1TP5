@@ -3,6 +3,7 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Oleo Script Swash Caps', cursive;
+    background-color: #1E8449;
     
 }
 h1{
@@ -11,7 +12,18 @@ h1{
     align-items: center;
     font-size: 60px;
     letter-spacing: 30px;
-    color: #D0D3D4
+    color: #B3B6B7;
+    /* text-decoration: dashed #F0F3F4; */
 
 }
 
+button{
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
