@@ -11,19 +11,23 @@
 </head>
 
 <body background="fondo_formulario.jpg">
-     <h1>Formulario</h1>
-        <form action="" method="" class="formulario">
+    <h1>Formulario</h1>
 
-            <input class="placeholder" type="text" placeholder="Nombre y apellido" name="nombre" id="nombre">
+    <form class="formulario">
 
-            <input class="placeholder" type="text" placeholder="e-mail" name="mail" id="mail">
+    <input class="placeholder" type="text" placeholder="Nombre y apellido" name="nombre" id="nombre">
 
-            <textarea class="placeholder" name="mensaje" id="mensaje" cols="30" rows="10"
-                placeholder="Escriba su mensaje"></textarea>
+    <input class="placeholder" type="text" placeholder="e-mail" name="mail" id="mail">
 
-            <input class="button" type="submit">
+    <textarea class="placeholder" name="contador" id="contador" onpaste="contador();" onkeyup="contador();" cols="30" rows="10" placeholder="Escriba su mensaje en 200 caracteres."></textarea>
 
-        </form>
+
+    <input class="button" type="submit">
+
+    <div id="resultado"></div>
+
+    </form>
+
 </body>
 
 </html>
